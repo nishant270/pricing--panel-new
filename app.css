@@ -1,0 +1,68 @@
+html{
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background-color: rgb(0, 153, 255);
+}
+
+.outerbox{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-wrap: wrap;
+}
+.panel-pricing-table{
+    display: flex;
+    width: 80%;
+    height: 100%;
+    border: 2px solid;
+    align-items: center;
+    background-color: white;
+    justify-content: space-around;
+    position: relative;
+    top: 190px;
+    border-radius:2% ;
+    flex-wrap:wrap ;
+
+}
+
+
+.pricing-plan{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-around;
+
+}
+
+.upper{
+    height: 40%;
+
+}
+
+.lower{
+    height: 60%;
+    display: flex;
+    align-items: space-around;
+}
+
+/* ul{
+    display: block;
+}
+
+span{
+    display: block;
+}
+
+a{
+    display: block;
+} */
+
+
+

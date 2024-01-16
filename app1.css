@@ -1,0 +1,128 @@
+HTML{
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    height: 100vh;
+        font-family: 'Open Sans', sans-serif;
+
+    
+}
+
+.panel-pricing-table{
+    display: flex;
+    border: 1px solid;
+    background-color: rgba(255, 255, 255, 0.627);
+    border-radius: 10px;
+    justify-content: space-around;
+    height: 600px;
+    text-align: center;
+    /* height: 55%; */
+}
+
+.pricing-plan{
+    border-right: 1px solid #51a7f3;
+    /* display: flex; */
+
+}
+
+.pricing-img{
+    margin-bottom:25px;
+    max-width: 100%;}
+
+.pricing-header {
+        color: #888;
+        font-weight: 600;
+        letter-spacing: 1px;
+        font-family: 'Open Sans', sans-serif;
+
+    }
+    
+    .pricing-features {
+        margin: 50px 0 25px;
+        color: #016ff9;
+        font-family: 'Open Sans', sans-serif;
+
+        
+      }
+
+.pricing-features-item{
+    font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 12px;
+  line-height: 1.5;
+  padding: 15px 0;
+  border-top: 1px solid #e1f1ff;
+  
+}
+
+.pricing-features-item:last-child{
+    border-bottom: 1px solid #e1f1ff;
+    
+  }
+
+.pricing-price{
+    display: block;
+    padding: 10px;
+    font-size: 30px;
+    color: rgb(0, 145, 255);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.pricing-button-is-featured,.pricing-button{
+    font-weight: 700;
+    text-decoration: none;
+    border: 1px solid;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 15px 35px;
+    transition: all 200ms;
+}
+.pricing-button-is-featured{
+position: relative;
+top: 20px;
+}
+.pricing-button{
+    position: relative;
+    top: 20px;
+}
+
+
+.pricing-button-is-featured{
+    background-color: #016ff9 ;
+    color: white;
+}
+
+
+.pricing-button:hover{
+    background-color: white;
+}
+
+.pricing-button-is-featured:hover{
+    background-color: #0171f909;
+    color: black;
+}
+
+
+
+@media (max-width:475px) {
+    .body{
+        flex-direction: column;
+        background-color: black;
+    }
+    .pricing-plan {
+        border-bottom: none;
+        border-right: 1px solid #e1f1ff;
+        padding: 25px 50px;
+      }
+      .pricing-plan:last-child {
+        border-right: none;
+      }
+
+
+}
